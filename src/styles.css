@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+/*----------------------------------------------------------------------------------
+*******************************COLOUR CODES*****************************************                                   
+------------------------------------------------------------------------------------
+white colour :#FFFFFF
+light blue: #009CA6
+dark color:#401B59
+dark red colour:#BA0E1A
+------------------------------------------------------------------------------------
+************************************************************************************
+------------------------------------------------------------------------------------*/
+
+html, body { margin: 0;  
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.mat-button, .mat-raised-button, .mat-icon-button, .mat-stroked-button,
+  .mat-flat-button, .mat-fab, .mat-mini-fab{
+    font-family: 'Ubuntu', sans-serif !important;
+
+  }
+#bg{
+    background-image: url("src\assets\Images\background-imgs\bg.png");
+    background-repeat: no-repeat;
+    position: fixed; 
+    width: 100vw;
+    height: 100vh;
+}
+#bg-btn{
+    background: transparent linear-gradient(109deg, #0F67AD 0%, #072E4D 100%) 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    opacity: 1;
+    color: #ffff;
+    line-height: 18px;
+    padding: 10px 24px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: none;
+}

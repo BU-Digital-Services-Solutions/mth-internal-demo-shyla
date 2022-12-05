@@ -1,0 +1,10 @@
+mat-grid-tile {
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+.by-tag{
+  background-color: #F9F9F9;
+}
+:host ::ng-deep .mat-grid-tile-content {
+  right: 151px;
+}
